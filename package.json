@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/MatheusFerreira71/sqlNode/issues"
   },
-  "homepage": "https://github.com/MatheusFerreira71/sqlNode#readme"
+  "homepage": "https://github.com/MatheusFerreira71/sqlNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  }
 }
