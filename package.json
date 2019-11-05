@@ -1,0 +1,25 @@
+{
+  "name": "sqlnode",
+  "version": "1.0.0",
+  "description": "Node JS com SQL usando sequelize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusFerreira71/sqlNode.git"
+  },
+  "keywords": [
+    "Express",
+    "NodeJS",
+    "Sequelize",
+    "SQL"
+  ],
+  "author": "MatheusFerreira71",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatheusFerreira71/sqlNode/issues"
+  },
+  "homepage": "https://github.com/MatheusFerreira71/sqlNode#readme"
+}
