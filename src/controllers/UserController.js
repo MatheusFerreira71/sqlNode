@@ -1,8 +1,10 @@
 const User = require('../models/User');
 
 module.exports = {
-    async index (req, res) {
-        const users = await User.findAll();
+    async index(req, res) {
+        const users = await User.findAll({
+            attributes: ['id', 'name', 'email']
+        });
 
         return res.json(users);
     },
